@@ -31,3 +31,6 @@ https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/concept-ocr
 
 
 
+![alt text](OUTPUT_IM_1.png)
+
+![alt text](image.png)
