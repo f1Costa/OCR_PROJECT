@@ -1,36 +1,39 @@
-# Laboratório de OCR com Azure Cognitive Services
-Este repositório contém os recursos e o código-fonte para um laboratório prático de Reconhecimento Óptico de Caracteres (OCR) utilizando os Azure Cognitive Services. O OCR é uma técnica poderosa para extrair texto de imagens ou documentos digitalizados, e os Azure Cognitive Services oferecem uma solução robusta e escalável para implementar essa funcionalidade em seus aplicativos.
+# OCR Laboratory with Azure Cognitive Services
+This repository contains the resources and source code for a practical Optical Character Recognition (OCR) laboratory using Azure Cognitive Services. OCR is a powerful technique for extracting text from images or scanned documents, and Azure Cognitive Services provide a robust and scalable solution for implementing this functionality in your applications.
 
-**Objetivo**
+__Objective__
 
-O objetivo deste laboratório é demonstrar como utilizar os Azure Cognitive Services para realizar OCR em imagens e extrair o texto correspondente. Ao seguir este guia, você aprenderá a configurar um ambiente de desenvolvimento, integrar os serviços cognitivos da Microsoft em seu aplicativo e realizar OCR em imagens de forma eficiente.
+The objective of this laboratory is to demonstrate how to use Azure Cognitive Services to perform OCR on images and extract the corresponding text. By following this guide, you will learn how to set up a development environment, integrate Microsoft's cognitive services into your application, and efficiently perform OCR on images.
 
-__Pré-requisitos__
+__Prerequisites__
 
-Conta ativa no Microsoft Azure
-Acesso ao portal do Azure
-Conhecimento básico de desenvolvimento de aplicativos
-Configuração do Ambiente
-Criar uma Instância de Serviço Cognitivo: No portal do Azure, crie uma instância de Serviço Cognitivo. Selecione o tipo de serviço como "Visão" para habilitar as capacidades de OCR.
+Active Microsoft Azure account
+Access to the Azure portal
+Basic knowledge of application development
+Environment Setup
+Create a Cognitive Service Instance: In the Azure portal, create a Cognitive Service instance. Select the service type as "Vision" to enable OCR capabilities.
 
-Obter Chave e URL: Após criar a instância do Serviço Cognitivo, obtenha a chave e o URL de endpoint. Estes serão necessários para autenticar e acessar os serviços.
+Get Key and URL: After creating the Cognitive Service instance, obtain the key and endpoint URL. These will be needed to authenticate and access the services.
 
-Instalar Dependências: Certifique-se de ter as dependências necessárias instaladas em seu ambiente de desenvolvimento. Você pode precisar instalar bibliotecas ou SDKs específicos dependendo da linguagem de programação que estiver utilizando.
+__Install Dependencies:__ 
 
-Executando o Laboratório
-Integrar o SDK: Utilize o SDK fornecido pela Microsoft para integrar os Azure Cognitive Services em seu aplicativo. Importe as bibliotecas necessárias e configure a autenticação utilizando a chave e o URL de endpoint obtidos anteriormente.
+Make sure you have the necessary dependencies installed in your development environment. You may need to install specific libraries or SDKs depending on the programming language you are using.
 
-Enviar Imagens para OCR: Envie as imagens que deseja processar para o serviço de OCR. Certifique-se de escolher o método adequado para enviar os dados da imagem, seja via URL ou upload do arquivo.
+__Running the Laboratory__
 
-Processar Resultados: Após enviar a imagem, o serviço retornará o texto extraído. Manipule esses resultados conforme necessário em seu aplicativo.
+Integrate the SDK: Use the SDK provided by Microsoft to integrate Azure Cognitive Services into your application. Import the necessary libraries and configure authentication using the key and endpoint URL obtained earlier.
 
-Gerenciar Erros e Exceções: Implemente tratamento de erros adequado para lidar com situações como falhas na conexão, imagens de baixa qualidade ou problemas de autenticação.
+Send Images for OCR: Send the images you want to process to the OCR service. Make sure to choose the appropriate method for sending the image data, whether via URL or file upload.
 
-__Recursos Adicionais__
-Documentação dos Azure Cognitive Services:
+Process Results: After sending the image, the service will return the extracted text. Handle these results as necessary in your application.
+
+Manage Errors and Exceptions: Implement proper error handling to deal with situations such as connection failures, low-quality images, or authentication issues.
+
+__Additional Resources__
+
+Azure Cognitive Services Documentation:
 
 https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/concept-ocr
-
 
 
 ![alt text](OUTPUT_IM_1.png)
