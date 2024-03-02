@@ -1,10 +1,12 @@
-__Laboratório de OCR com Azure Cognitive Services__
+# Laboratório de OCR com Azure Cognitive Services
 Este repositório contém os recursos e o código-fonte para um laboratório prático de Reconhecimento Óptico de Caracteres (OCR) utilizando os Azure Cognitive Services. O OCR é uma técnica poderosa para extrair texto de imagens ou documentos digitalizados, e os Azure Cognitive Services oferecem uma solução robusta e escalável para implementar essa funcionalidade em seus aplicativos.
 
 **Objetivo**
+
 O objetivo deste laboratório é demonstrar como utilizar os Azure Cognitive Services para realizar OCR em imagens e extrair o texto correspondente. Ao seguir este guia, você aprenderá a configurar um ambiente de desenvolvimento, integrar os serviços cognitivos da Microsoft em seu aplicativo e realizar OCR em imagens de forma eficiente.
 
 __Pré-requisitos__
+
 Conta ativa no Microsoft Azure
 Acesso ao portal do Azure
 Conhecimento básico de desenvolvimento de aplicativos
